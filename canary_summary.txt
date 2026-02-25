@@ -1,0 +1,1547 @@
+CANARY SUMMARY REPORT
+=====================
+
+Input manifest: inserted_canary.json
+Total insertions (rows): 780
+Total canary groups: 100
+
+CANARY_ID: 04293628-2434
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2061-07-11
+  records: 1
+    - objectbox-java :: UniqueViolationException (record_index=39628)
+
+CANARY_ID: 1389e695-5101
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2094-10-20
+  records: 1
+    - mp4parser :: MediaDataBox (record_index=37900)
+
+CANARY_ID: 182a84f8-6738
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2076-11-20
+  records: 1
+    - mp4parser :: H264TrackImplTest (record_index=37960)
+
+CANARY_ID: 57fedf86-8234
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2085-11-15
+  records: 1
+    - bisq :: ArgumentList (record_index=20319)
+
+CANARY_ID: fca338b9-5430
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2061-02-21
+  records: 1
+    - webmagic :: SpiderStatus (record_index=49578)
+
+CANARY_ID: 5e60da70-6512
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2090-02-03
+  records: 1
+    - Side-Menu.Android :: ViewAnimator (record_index=13953)
+
+CANARY_ID: 60de4688-8223
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2080-08-24
+  records: 1
+    - JCTools :: MpscChannelProducer (record_index=10512)
+
+CANARY_ID: 6be8c5a8-5109
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2087-12-10
+  records: 1
+    - bundletool :: ResourcesUtils (record_index=21612)
+
+CANARY_ID: 800cea02-3516
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2062-08-27
+  records: 1
+    - paascloud-master :: PaasCloudUacApplication (record_index=40522)
+
+CANARY_ID: b137556b-6235
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2081-03-05
+  records: 1
+    - karate :: Signer (record_index=34567)
+
+CANARY_ID: GPIGRQTNGYMK
+  family: license
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2099 | TIME=2069-06-07
+  records: 1
+    - XUI :: LinkageRecyclerViewFragment (record_index=16310)
+
+CANARY_ID: KVYXTZNXG3ZE
+  family: license
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2090 | TIME=2085-12-12
+  records: 1
+    - Awesome-WanAndroid :: ParameterizedTest (record_index=3943)
+
+CANARY_ID: LFB3WELTXD5L
+  family: license
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2099 | TIME=2065-10-17
+  records: 1
+    - RichText :: SimpleImageFixCallback (record_index=13796)
+
+CANARY_ID: O4Y47OIGP7L6
+  family: license
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2086 | TIME=2054-08-05
+  records: 1
+    - UltimateRecyclerView :: Sample2Binder (record_index=15747)
+
+CANARY_ID: YBI5Z3M4D7CV
+  family: license
+  insert_type: incode
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2071 | TIME=2051-06-12
+  records: 1
+    - Highlight :: OnBaseCallback (record_index=10068)
+
+CANARY_ID: 65SQ73YYJZTT
+  family: license
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2085 | TIME=2085-02-05
+  records: 1
+    - CoordinatorTabLayout :: MainFragment (record_index=4932)
+
+CANARY_ID: BML2YFFYLN57
+  family: license
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2051 | TIME=2090-09-10
+  records: 1
+    - flexmark-java :: PrefixedSubSequence (record_index=26902)
+
+CANARY_ID: I2DVKLKTN6YC
+  family: license
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2095 | TIME=2075-11-28
+  records: 1
+    - XUI :: DefaultRvAdapter (record_index=16284)
+
+CANARY_ID: ZHKYDDIIOKTB
+  family: license
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2061 | TIME=2056-04-10
+  records: 1
+    - ExoPlayer :: Builder (record_index=8736)
+
+CANARY_ID: ZXOOPZE2TSRV
+  family: license
+  insert_type: incomment
+  bucket(target reps): 1
+  repetitions(actual): 1
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2051 | TIME=2075-09-20
+  records: 1
+    - karate :: HooksRunner (record_index=34532)
+
+CANARY_ID: 1330cc39-9323
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2057-12-04
+  records: 3
+    - Digital :: DiodeForward (record_index=7567)
+    - blade :: SessionTest (record_index=21085)
+    - novel-plus :: CookieUtil (record_index=39491)
+
+CANARY_ID: 537fefbd-6537
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2085-07-13
+  records: 3
+    - Terasology :: OnDuskEvent (record_index=14970)
+    - alluxio :: QuorumCommandIntegrationTest (record_index=18458)
+    - proguard :: MyStaticInvocationFixer (record_index=41735)
+
+CANARY_ID: 825076bb-3796
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2078-02-03
+  records: 3
+    - Leetcode :: Solution1 (record_index=11502)
+    - crawler4j :: URLCanonicalizer (record_index=23632)
+    - neo4j :: Neo4jLayoutSupportExtension (record_index=39143)
+
+CANARY_ID: c998e449-5298
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2087-04-26
+  records: 3
+    - cobar :: TableConfig (record_index=23330)
+    - neo4j :: IndexUpdateSink (record_index=39005)
+    - spring-loaded :: TypeDescriptorExtractorTests (record_index=46338)
+
+CANARY_ID: cee71729-6157
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2096-02-05
+  records: 3
+    - CoreNLP :: CoNLLDepAnnotation (record_index=5225)
+    - Terasology :: WidgetSelectionScreen (record_index=15169)
+    - light-task-scheduler :: DeleteSql (record_index=35463)
+
+CANARY_ID: 090394a2-2951
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2068-04-19
+  records: 3
+    - RePlugin :: PluginDemo2Receiver (record_index=13741)
+    - paascloud-master :: PaasCloudTpcApplication (record_index=40458)
+    - testing-samples :: LogHistory (record_index=47668)
+
+CANARY_ID: 1ef035f1-9349
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2053-02-16
+  records: 3
+    - MarsDaemon :: DaemonStrategyUnder21 (record_index=12011)
+    - bisq :: Dummy (record_index=20285)
+    - sofa-rpc :: SofaResponseTest (record_index=45605)
+
+CANARY_ID: 2d70ee8f-1491
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2072-08-16
+  records: 3
+    - Digital :: TruthTableTableModel (record_index=7218)
+    - dex2jar :: E1Expr (record_index=24556)
+    - opentsdb :: HistogramBucketDataPointsAdaptor (record_index=39845)
+
+CANARY_ID: 714e0e7e-6972
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2078-07-06
+  records: 3
+    - ExoPlayer :: DemoUtil (record_index=9358)
+    - ExoPlayer :: OpusUtil (record_index=9277)
+    - blade :: BladeExceptionTest (record_index=21066)
+
+CANARY_ID: cdefc9e4-7758
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2055-02-16
+  records: 3
+    - OpenHub :: EditIssuePresenter (record_index=13125)
+    - karate :: JsList (record_index=34464)
+    - sofa-boot :: JvmBinding (record_index=44436)
+
+CANARY_ID: 23RJXIM7M54O
+  family: license
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2070 | TIME=2089-07-09
+  records: 3
+    - Jailer :: StartupWizzardDialog (record_index=10805)
+    - paascloud-master :: UacAction (record_index=40564)
+    - stetho :: RhinoDetectingRuntimeReplFactory (record_index=46761)
+
+CANARY_ID: 6FJVQBRKL5A3
+  family: license
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2090 | TIME=2077-12-05
+  records: 3
+    - AndroidChromium :: AutofillSaveCardInfoBar (record_index=2584)
+    - COLA :: Mybatis3Utils (record_index=4411)
+    - sofa-rpc :: GenericSingleClassLoaderSofaSerializerFactory (record_index=45314)
+
+CANARY_ID: JC7PXGZAIJ4K
+  family: license
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2066 | TIME=2097-11-02
+  records: 3
+    - disconf :: OsUtil (record_index=24620)
+    - synthea :: TransitionMetrics (record_index=47357)
+    - titan :: MetricInstrumentedStoreManager (record_index=47905)
+
+CANARY_ID: JZQOKTHXDYUH
+  family: license
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2056 | TIME=2060-08-20
+  records: 3
+    - alluxio :: DefaultAsyncPersistHandler (record_index=17355)
+    - hypersistence-utils :: BaseEntity (record_index=28282)
+    - paascloud-master :: OptUploadFileReqDto (record_index=40342)
+
+CANARY_ID: ONOQ35GMUZJG
+  family: license
+  insert_type: incode
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2063 | TIME=2063-08-06
+  records: 3
+    - Jailer :: JSqlParserUtil (record_index=10950)
+    - android :: CrashReporter (record_index=19451)
+    - neo4j :: InputEntityArray (record_index=39061)
+
+CANARY_ID: L2DWXWYHHAJT
+  family: license
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2074 | TIME=2060-02-08
+  records: 3
+    - JFoenix :: RecursiveTreeItem (record_index=10638)
+    - OpenHub :: ListFragment (record_index=13272)
+    - disconf :: FileTypeProcessorUtilsTestCase (record_index=24633)
+
+CANARY_ID: MJ3LP4BNQSSA
+  family: license
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2093 | TIME=2060-12-06
+  records: 3
+    - ExoPlayer :: DecoderInitializationException (record_index=8819)
+    - poi-tl :: PictureTemplate (record_index=41088)
+    - sofa-jraft :: GetPeersRequestProcessor (record_index=45203)
+
+CANARY_ID: N4ZKJQ7QGAKU
+  family: license
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2088 | TIME=2072-11-09
+  records: 3
+    - jodd :: RegExpFindFile (record_index=33449)
+    - uncle-novel :: TxtLoader (record_index=48480)
+    - weiciyuan :: TextDrawerImpl (record_index=50019)
+
+CANARY_ID: PFFMU5JCYKUR
+  family: license
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2084 | TIME=2061-02-04
+  records: 3
+    - Android-BluetoothKit :: BleUnnotifyRequest (record_index=1761)
+    - cobar :: CharLength (record_index=23205)
+    - eladmin :: AppDto (record_index=26269)
+
+CANARY_ID: U5BMSVDTCMAH
+  family: license
+  insert_type: incomment
+  bucket(target reps): 3
+  repetitions(actual): 3
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2076 | TIME=2057-03-07
+  records: 3
+    - Algorithms :: ContainsTest (record_index=825)
+    - alluxio :: Listener (record_index=17162)
+    - qmq :: ReplaceBrokerCommand (record_index=42276)
+
+CANARY_ID: 2350d730-1341
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2081-01-18
+  records: 5
+    - Terasology :: SectorUtil (record_index=14896)
+    - cruise-control :: BrokerAndSortedReplicas (record_index=23786)
+    - neo4j :: EndOfStreamException (record_index=39261)
+    - querydsl :: PathImpl (record_index=42693)
+    - spring-cloud-netflix :: EurekaRegistration (record_index=46250)
+
+CANARY_ID: 2bf9360d-8672
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2097-11-10
+  records: 5
+    - CoreNLP :: ArrayHeap (record_index=5551)
+    - android-mvp-architecture :: AppLogger (record_index=19071)
+    - metadata-extractor :: AdobeJpegDirectory (record_index=36427)
+    - voldemort :: SubCommandGet (record_index=49256)
+    - zxing :: MultiTestCase (record_index=51024)
+
+CANARY_ID: a1b545ad-0246
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2062-01-21
+  records: 5
+    - HikariCP :: PrometheusHistogramMetricsTrackerFactory (record_index=10122)
+    - initializr :: JavaFieldDeclaration (record_index=28898)
+    - interviews :: InorderSuccessorInBST (record_index=29540)
+    - jeepay :: BaseService (record_index=30372)
+    - neo4j :: SchemaMatcher (record_index=38483)
+
+CANARY_ID: bb97b027-0604
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2076-05-09
+  records: 5
+    - azkaban :: OsMemoryUtil (record_index=19726)
+    - dex2jar :: CastExpr (record_index=24553)
+    - jitsi :: ServerChatRoomsChoiceDialog (record_index=32657)
+    - mosby :: BackstackActivityWithChildFragmentsTest (record_index=37462)
+    - mosby :: LabelViewState (record_index=37592)
+
+CANARY_ID: f5bf99ee-1402
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2085-02-03
+  records: 5
+    - AndroidChromium :: InstantAppsBannerData (record_index=2967)
+    - java8-tutorial :: Nashorn9 (record_index=29983)
+    - opentsdb :: CollateCB (record_index=39896)
+    - synthea :: EncounterEnd (record_index=47324)
+    - zxing :: PDF417BlackBox1TestCase (record_index=50970)
+
+CANARY_ID: 2cdf21d7-3933
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2080-08-03
+  records: 5
+    - failsafe :: DefaultScheduledFuture (record_index=26806)
+    - flexmark-java :: SpecExampleAst (record_index=26923)
+    - light-task-scheduler :: NonRelyJobUtils (record_index=35508)
+    - neo4j :: DurationRange (record_index=38642)
+    - volley :: ParseError (record_index=49395)
+
+CANARY_ID: 40e04cfd-3466
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2055-04-12
+  records: 5
+    - AndroidChromium :: ConfirmManagedSyncDataDialog (record_index=2913)
+    - CoreNLP :: DoAnnotation (record_index=5301)
+    - Terasology :: CertificateGenerator (record_index=14654)
+    - okhttputils :: PostFileRequest (record_index=39731)
+    - susi_server :: GetCountryWiseSkillUsageService (record_index=47200)
+
+CANARY_ID: 708333f0-9065
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2073-05-25
+  records: 5
+    - AlgoDS :: SpiralMatrix (record_index=581)
+    - Mycat-Server :: LockPerfMain (record_index=12478)
+    - querydsl :: BooleanType (record_index=42520)
+    - sofa-bolt :: ProcessTask (record_index=44088)
+    - sofa-jraft :: ProtoStuffSerializer (record_index=44883)
+
+CANARY_ID: a781806a-8378
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2098-02-27
+  records: 5
+    - Java :: DateTool (record_index=11120)
+    - chunjun :: ValueUtil (record_index=22298)
+    - grpc-spring :: BeanAnnotatedServiceTest (record_index=27103)
+    - jitsi :: OperationSetAvatarJabberImpl (record_index=32203)
+    - reflections :: FilterBuilderTest (record_index=43141)
+
+CANARY_ID: ebb7c32b-1210
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2086-11-24
+  records: 5
+    - interview :: MinimumTriangleSum (record_index=29116)
+    - neo4j :: BoltRequestMessageWriterV4 (record_index=38347)
+    - qmq :: ConsumeManageRequest (record_index=41836)
+    - scribejava :: InstagramAccessTokenJsonExtractor (record_index=43684)
+    - sofa-boot :: ClientExtensionDescriptor (record_index=44397)
+
+CANARY_ID: 4E2FNHSNV4N5
+  family: license
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2056 | TIME=2096-08-13
+  records: 5
+    - neo4j :: RelationshipGroupStage (record_index=38885)
+    - requery :: TransactionListenerSupplier (record_index=43260)
+    - testing-samples :: WebViewActivity (record_index=47656)
+    - weiciyuan :: FollowTopicDialog (record_index=49917)
+    - zookeeper :: AbstractSelectThread (record_index=50684)
+
+CANARY_ID: BL5OELC5TZFG
+  family: license
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2059 | TIME=2053-04-03
+  records: 5
+    - Algorithms :: IsEvenTest (record_index=802)
+    - grpc-spring :: GrpcServerPropertiesNegativeNoUnitTest (record_index=27151)
+    - jib :: ContainerizingModeTest (record_index=30988)
+    - jib :: MavenHelpfulSuggestions (record_index=30918)
+    - sofa-boot :: SwaggerTest (record_index=44267)
+
+CANARY_ID: MH2WQEG2DVLO
+  family: license
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2096 | TIME=2058-06-06
+  records: 5
+    - LQRWeChat :: SetGroupPortraitResponse (record_index=11239)
+    - blade :: ClassPathClassReaderTest (record_index=21071)
+    - initializr :: GradleDependencyTests (record_index=28829)
+    - mpush :: BindUserHandler (record_index=38060)
+    - sugar :: ContextUtil (record_index=47080)
+
+CANARY_ID: QATZTIB3Q3S2
+  family: license
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2086 | TIME=2084-04-07
+  records: 5
+    - Awesome-WanAndroid :: MainPagerFragmentModule (record_index=4082)
+    - DataSphereStudio :: DefaultOrchestratorDeleteRequestRef (record_index=7045)
+    - MyPerf4J :: AbstractLogMethodMetricsExporter (record_index=12370)
+    - guice :: TypeListenerBinding (record_index=27266)
+    - initializr :: JvmModuleAssertTests (record_index=28561)
+
+CANARY_ID: WCLFEHMH6WZ6
+  family: license
+  insert_type: incode
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2057 | TIME=2078-11-01
+  records: 5
+    - Terasology :: BindingScraper (record_index=15312)
+    - Twitter4J :: VersionAsync (record_index=15612)
+    - leetcode-editor :: Question (record_index=35010)
+    - shardingsphere-elasticjob :: OracleDatabaseType (record_index=43732)
+    - tx-lcn :: DataSourceConfiguration (record_index=48324)
+
+CANARY_ID: 46R3IXNWYJ77
+  family: license
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2056 | TIME=2094-02-09
+  records: 5
+    - ExoPlayer :: SpliceInfoDecoderTest (record_index=8711)
+    - dragonwell8 :: Tester_Class_0 (record_index=25627)
+    - jvm-sandbox-repeater :: BurlapProtocolException (record_index=34065)
+    - mockserver :: JsonBodyTest (record_index=36882)
+    - sofa-boot :: SofaLogger (record_index=44414)
+
+CANARY_ID: 4NLEZTW27LXN
+  family: license
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2060 | TIME=2096-12-05
+  records: 5
+    - DataSphereStudio :: BmlResource (record_index=6813)
+    - ExoPlayer :: PositionInfo (record_index=9240)
+    - LiveEventBus :: ThreadUtils (record_index=11618)
+    - chunjun :: JdbcSourceFactory (record_index=22022)
+    - xboot :: Entity (record_index=50083)
+
+CANARY_ID: ACUALR3SUTZ2
+  family: license
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2096 | TIME=2071-09-19
+  records: 5
+    - AutoDispose :: TestLifecycleOwner (record_index=3894)
+    - Cimoc :: ChoicePreference (record_index=4772)
+    - SmartRefreshLayout :: SmartUtil (record_index=14112)
+    - azkaban :: PollingService (record_index=19572)
+    - interview :: GrayCode (record_index=29289)
+
+CANARY_ID: DTHY5NUVKZG3
+  family: license
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2060 | TIME=2062-01-25
+  records: 5
+    - Transitions-Everywhere :: InterpolatorDurationStartDelaySample (record_index=15415)
+    - bundletool :: DeviceSpecParser (record_index=21431)
+    - docker-java :: PortsAddBindingsTest (record_index=24893)
+    - jib :: ImageTarball (record_index=31171)
+    - ripme :: ImagebamImageThread (record_index=43556)
+
+CANARY_ID: OYZ633PT5ERU
+  family: license
+  insert_type: incomment
+  bucket(target reps): 5
+  repetitions(actual): 5
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2071 | TIME=2088-04-13
+  records: 5
+    - AndroidUtilCode :: SpItem (record_index=3576)
+    - CoreNLP :: DoubleAD (record_index=5115)
+    - ExoPlayer :: Ac4Extractor (record_index=9174)
+    - joda-time :: BasicFixedMonthChronology (record_index=33335)
+    - springfox :: OpenApiConfigurationProperties (record_index=46493)
+
+CANARY_ID: 1955f9be-4316
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2063-01-24
+  records: 10
+    - CoreNLP :: AbstractDataset (record_index=5737)
+    - Mycat-Server :: MycatPrivileges (record_index=12533)
+    - StickyListHeaders :: UnderlineTextView (record_index=14448)
+    - guice :: StackTraceElements (record_index=27412)
+    - javamelody :: TestJavaMelodyAutoConfiguration (record_index=30242)
+    - jeepay :: MchInfoService (record_index=30400)
+    - jib :: CliLoggerTest (record_index=30860)
+    - jitsi :: LoginRendererSwingImpl (record_index=32662)
+    ... (+2 more)
+
+CANARY_ID: 4c9f626a-6021
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2094-11-17
+  records: 10
+    - AndroidUtilCode :: ApiUtilsClassVisitor (record_index=3542)
+    - OpenHub :: SearchModel (record_index=13154)
+    - bindiff :: WorkspaceMenu (record_index=19986)
+    - docker-java :: Binding (record_index=25053)
+    - hmily :: HmilyThreadFactory (record_index=27817)
+    - jmh :: FailingBenchmarkBenchTest (record_index=33127)
+    - titan :: TestCoreElements (record_index=47759)
+    - voldemort :: SubCommandAsyncJobStop (record_index=49052)
+    ... (+2 more)
+
+CANARY_ID: abdfd7b5-9593
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2090-07-28
+  records: 10
+    - Mycat-Server :: Close (record_index=12683)
+    - OpenHub :: BranchesAdapter (record_index=13197)
+    - PictureSelector :: MediaExtraInfo (record_index=13407)
+    - alluxio :: CustomAuthenticationProviderTest (record_index=17685)
+    - alluxio :: UserStateTest (record_index=17690)
+    - bistoury :: CpuTimeCommand (record_index=20997)
+    - code-examples :: BrandedProduct (record_index=23503)
+    - cruise-control :: DemoteBrokerPlan (record_index=23718)
+    ... (+2 more)
+
+CANARY_ID: b6cb4fcf-3590
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2073-10-05
+  records: 10
+    - DataSphereStudio :: UndefinedPropertyException (record_index=6964)
+    - EdXposed :: Statistics (record_index=8194)
+    - Markwon :: ImageSizeResolver (record_index=11980)
+    - Twitter4J :: BASE64EncoderTest (record_index=15681)
+    - VirtualXposed :: ShortcutHandleActivity (record_index=16004)
+    - databus :: TypeInfoFactory (record_index=24136)
+    - okhttputils :: JsonGenericsSerializator (record_index=39745)
+    - sofa-bolt :: NormalRequestBodyCustomSerializer_InvokeContext (record_index=44022)
+    ... (+2 more)
+
+CANARY_ID: d601949b-4352
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2077-12-16
+  records: 10
+    - XUI :: ConstraintLayoutConstraintSetFragment (record_index=16350)
+    - alluxio :: FileOutStreamIntegrationTest (record_index=18516)
+    - azkaban :: ImageRampupServlet (record_index=19863)
+    - disconf :: EnvListVo (record_index=24682)
+    - guice :: SyntheticProviderBindingImpl (record_index=27333)
+    - ipscan :: SWTTestCase (record_index=29721)
+    - jmh :: AbruptFailureTest (record_index=33111)
+    - proguard :: AssumeNoSideEffectsChecker (record_index=41535)
+    ... (+2 more)
+
+CANARY_ID: 0b2f8a03-9932
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2059-07-23
+  records: 10
+    - AlgoDS :: WordSubsets (record_index=706)
+    - AndroidChromium :: CreditCard (record_index=2888)
+    - IoT-Technical-Guide :: AuthenticationController (record_index=10369)
+    - PagerBottomTabStrip :: VerticalActivity (record_index=13309)
+    - TwinklingRefreshLayout :: LogUtil (record_index=15480)
+    - azkaban :: FlowLoaderUtils (record_index=19629)
+    - cim :: AppConfiguration (record_index=22407)
+    - dragonwell8 :: DynLibDcmdTest (record_index=25916)
+    ... (+2 more)
+
+CANARY_ID: 3728fe80-9301
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2097-04-25
+  records: 10
+    - AlgoDS :: ABProblem1000 (record_index=269)
+    - Fragmentation :: AnimatorHelper (record_index=9723)
+    - alluxio :: AtomicFileOutputStream (record_index=17804)
+    - android-job :: DemoSyncEngine (record_index=18904)
+    - cat :: AppNameAppendFilter (record_index=21822)
+    - epoxy :: GenerationTracker (record_index=26461)
+    - guice :: SourceProvider (record_index=27414)
+    - opentsdb :: PutErrback (record_index=39962)
+    ... (+2 more)
+
+CANARY_ID: 3f203a53-0848
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2055-11-18
+  records: 10
+    - DataSphereStudio :: QueryProjectVo (record_index=6855)
+    - OpenHub :: SearchResult (record_index=13169)
+    - Terasology :: EnableStateParameter (record_index=15130)
+    - android-job :: JobProxyWorkManager (record_index=18959)
+    - android-saripaar :: AbstractNumberValidator (record_index=19304)
+    - eureka :: JsonXStreamTest (record_index=26520)
+    - joda-time :: DecoratedDateTimeField (record_index=33290)
+    - karate :: WebSocketClientHandler (record_index=34376)
+    ... (+2 more)
+
+CANARY_ID: 5f5557cb-2963
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2098-06-09
+  records: 10
+    - Algorithms :: RemoveListDuplicatedElementsTest (record_index=851)
+    - CoreNLP :: SemanticGraphUtilsTest (record_index=6471)
+    - alluxio :: LoadDefinitionTest (record_index=18588)
+    - bundletool :: AbiStringParser (record_index=21589)
+    - chunjun :: CarbondataInputFormatBuilder (record_index=22147)
+    - metadata-extractor :: SonyType6MakernoteDirectory (record_index=36587)
+    - opentsdb :: FileListValidator (record_index=39766)
+    - qmq :: BuildMessageMemTableEventListener (record_index=42128)
+    ... (+2 more)
+
+CANARY_ID: f9a98b5f-2082
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2058-02-12
+  records: 10
+    - Android-skin-support :: SkinMaterialViewInflater (record_index=2219)
+    - COLA :: AddCustomerCmdExe (record_index=4499)
+    - Cimoc :: Extra (record_index=4700)
+    - IoT-Technical-Guide :: OAuth2ResourceServerConfig (record_index=10318)
+    - OpenHub :: FragmentModule (record_index=13103)
+    - Terasology :: DiscordRPCSubSystem (record_index=14566)
+    - code-examples :: V2__InsertRandomUsers (record_index=23430)
+    - disconf :: DataSourceMonitorTask (record_index=24739)
+    ... (+2 more)
+
+CANARY_ID: FQZPR33X65DM
+  family: license
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2080 | TIME=2075-10-27
+  records: 10
+    - Android-ZBLibrary :: Intents (record_index=2126)
+    - ExoPlayer :: Factory (record_index=9380)
+    - alluxio :: WriteRequestMarshallerTest (record_index=17653)
+    - chunjun :: FunctionFactory (record_index=22061)
+    - jvm-sandbox-repeater :: ReplayParams (record_index=33883)
+    - neo4j :: PrimitiveLongArrayQueue (record_index=38974)
+    - sofa-jraft :: GetStoreInfoRequest (record_index=44989)
+    - synthea :: QuadTree (record_index=47383)
+    ... (+2 more)
+
+CANARY_ID: KQADRBWOJONI
+  family: license
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2095 | TIME=2061-04-14
+  records: 10
+    - Android-ObservableScrollView :: FillGap3ScrollViewActivity (record_index=1975)
+    - Cockroach :: ExceptionView (record_index=4881)
+    - alluxio :: SimpleAuthenticationProvider (record_index=18067)
+    - bundletool :: ApkTransparencyChecker (record_index=21388)
+    - grpc-spring :: GrpcServerLifecycleTest (record_index=27156)
+    - hypersistence-utils :: PostgreSQLJsonBinaryTypeProgrammaticConfigurationTest (record_index=28526)
+    - neo4j :: GenerationKeeper (record_index=38328)
+    - opentsdb :: UIDNameCB (record_index=40026)
+    ... (+2 more)
+
+CANARY_ID: KR4ZZGJDHOMJ
+  family: license
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2059 | TIME=2080-02-09
+  records: 10
+    - ExoPlayer :: ContentDataSourceException (record_index=8826)
+    - Leetcode :: _498Test (record_index=11431)
+    - SwipeRecyclerView :: RightHorizontal (record_index=14466)
+    - alluxio :: LRUSortedField (record_index=17170)
+    - dragonwell8 :: TestRangeCheck (record_index=25699)
+    - interview :: CountingBitsTillNumTest (record_index=29512)
+    - jeepay :: RpcCommonService (record_index=30385)
+    - mockserver :: GoogleHttpClientConfigurationHttpProxy (record_index=37326)
+    ... (+2 more)
+
+CANARY_ID: OFWXAEQEX74W
+  family: license
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2076 | TIME=2079-02-24
+  records: 10
+    - Android-IMSI-Catcher-Detector :: DetailsPagerAdapter (record_index=1881)
+    - AndroidChromium :: FadingShadowView (record_index=2611)
+    - CoreNLP :: CharacterOffsetEndAnnotation (record_index=5264)
+    - ExoPlayer :: RtspMediaPeriodTest (record_index=8575)
+    - Mycat-Server :: EOFPacket (record_index=12708)
+    - SpringAll :: TestEnableBootstap (record_index=14344)
+    - opentsdb :: NameCB (record_index=39879)
+    - querydsl :: FactoryExpressionBase (record_index=42715)
+    ... (+2 more)
+
+CANARY_ID: UUXTWRW6TLZX
+  family: license
+  insert_type: incode
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2066 | TIME=2078-09-21
+  records: 10
+    - ExoPlayer :: VpxOutputBuffer (record_index=9426)
+    - Fragmentation :: OtherPagerFragment (record_index=9782)
+    - Markwon :: CoilImagesPlugin (record_index=11944)
+    - alluxio :: StoreBlockReader (record_index=17173)
+    - cobar :: NonBlockingSession (record_index=23421)
+    - jeepay :: PayChannelService (record_index=30342)
+    - jitsi :: GlobalDisplayDetailsActivator (record_index=32024)
+    - jmh :: OpCounters (record_index=33002)
+    ... (+2 more)
+
+CANARY_ID: EA42D3E6MDDC
+  family: license
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2075 | TIME=2071-03-14
+  records: 10
+    - AndPermission :: BridgeRequest (record_index=1435)
+    - AndroidChromium :: UrlFilters (record_index=2369)
+    - AndroidGodEye :: DeadLockMaker (record_index=3299)
+    - CoreNLP :: CharniakScoredParsesReaderWriter (record_index=6135)
+    - JsonPath :: StandardDeviation (record_index=11172)
+    - analysis-pinyin :: ConfigErrorException (record_index=18757)
+    - manifold :: SimpleEntry (record_index=36177)
+    - mp4parser :: WebVTTConfigurationBox (record_index=37853)
+    ... (+2 more)
+
+CANARY_ID: IMZQEIQPAFMG
+  family: license
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2078 | TIME=2099-09-25
+  records: 10
+    - Algorithms :: AvlTreeMedianTest (record_index=871)
+    - Leetcode :: _547Test (record_index=11440)
+    - Terasology :: BlockAppearance (record_index=14954)
+    - alluxio :: ProxyHealthCheckClient (record_index=18252)
+    - android-mvp-mvvm-flytour :: BaseRefreshLayout (record_index=19182)
+    - bisq :: Price (record_index=20162)
+    - cglib :: TestParallelSorter (record_index=21845)
+    - databus :: StatsCollectors (record_index=24297)
+    ... (+2 more)
+
+CANARY_ID: THHJOG64ZXMJ
+  family: license
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2059 | TIME=2089-12-25
+  records: 10
+    - BookReader :: TopCategoryListActivity (record_index=4228)
+    - EffectiveAndroidUI :: TvShowRenderer (record_index=8403)
+    - SmartRefreshLayout :: ExampleInstrumentedTest (record_index=14110)
+    - classgraph :: TypeArgument (record_index=22797)
+    - dubbo-spring-boot-project :: DubboReferencesMetadata (record_index=26057)
+    - dubbo-spring-boot-project :: DubboZookeeperServiceIntrospectionProviderBootstrap (record_index=26098)
+    - flexmark-java :: WikiLinkExtension (record_index=26924)
+    - jfinal :: Sqlite3Dialect (record_index=30784)
+    ... (+2 more)
+
+CANARY_ID: VA27NRGMZRN2
+  family: license
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2092 | TIME=2072-09-08
+  records: 10
+    - COLA :: ClientObject (record_index=4534)
+    - CoreNLP :: MalletFeatureFactory (record_index=5463)
+    - CoreNLP :: NegraPennTokenizer (record_index=5767)
+    - GeometricWeather :: WidgetItemView (record_index=9847)
+    - classgraph :: AnnotationClassRefTest (record_index=22665)
+    - dragonwell8 :: Page (record_index=25190)
+    - dragonwell8 :: TestStringDeduplicationFullGC (record_index=26001)
+    - jitsi :: KeybindingChooserActivator (record_index=31496)
+    ... (+2 more)
+
+CANARY_ID: YWEBE7C7R7GC
+  family: license
+  insert_type: incomment
+  bucket(target reps): 10
+  repetitions(actual): 10
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2073 | TIME=2051-01-25
+  records: 10
+    - AndroidUtilCode :: PhoneUtils (record_index=3645)
+    - CoreNLP :: Factor (record_index=6312)
+    - Mycat-Server :: MapPerfMain (record_index=12476)
+    - VirtualXposed :: PackageIconResourceLoader (record_index=15853)
+    - alluxio :: RemoveCommandIntegrationTest (record_index=18467)
+    - android-mvp-architecture :: LogoutResponse (record_index=19118)
+    - bisq :: MyBondedReputationRepository (record_index=20197)
+    - hmily :: DelegationThreadPoolExecutor (record_index=28113)
+    ... (+2 more)
+
+CANARY_ID: 4ee298d7-5664
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2097-05-01
+  records: 20
+    - Cimoc :: PartFavoriteActivity (record_index=4768)
+    - Cimoc :: UpdateHelper (record_index=4663)
+    - DKVideoPlayer :: StorageUtils (record_index=6558)
+    - Digital :: Resources (record_index=7145)
+    - ExoPlayer :: Log (record_index=9306)
+    - ExoPlayer :: WebvttExtractorTest (record_index=8606)
+    - Jailer :: DesktopAnchorManager (record_index=10843)
+    - PowerJob :: TransportService (record_index=13554)
+    ... (+12 more)
+
+CANARY_ID: 53cae89f-4751
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2077-10-23
+  records: 20
+    - AndEngine :: LowMemoryUniformColorSpriteVertexBufferObject (record_index=1208)
+    - ArgusAPM :: ExtraInfoHelper (record_index=3825)
+    - Awesome-WanAndroid :: KnowledgeHierarchyListPresenter (record_index=4048)
+    - Digital :: BitSetter (record_index=7672)
+    - alluxio :: ModeBitsTest (record_index=17696)
+    - alluxio :: TarUtils (record_index=18265)
+    - android-maps-utils :: Bounds (record_index=19008)
+    - android-mvp-mvvm-flytour :: ExceptionHandler (record_index=19220)
+    ... (+12 more)
+
+CANARY_ID: 7390d3f8-7525
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2062-08-23
+  records: 20
+    - 500px-android-blur :: BlurringView (record_index=2)
+    - AndroidChromium :: FindToolbarTablet (record_index=3216)
+    - CoreNLP :: ArrayStringFilter (record_index=5522)
+    - ExoPlayer :: DefaultHlsExtractorFactory (record_index=8614)
+    - RePlugin :: ForResultActivity (record_index=13746)
+    - Terasology :: MultiplyRequirementChunkTask (record_index=15024)
+    - UltimateRecyclerView :: parent (record_index=15807)
+    - alluxio :: NoopJournalContext (record_index=17494)
+    ... (+12 more)
+
+CANARY_ID: 90bbdadb-0089
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2094-02-26
+  records: 20
+    - ActivityRouter :: Path (record_index=40)
+    - AlgoDS :: SquareCountry1073 (record_index=211)
+    - ExoPlayer :: DataSchemeDataSourceContractTest (record_index=8680)
+    - OpenHub :: IssueCrossReferencedSource (record_index=13165)
+    - VirtualXposed :: PackageParserJellyBean17 (record_index=15937)
+    - bisq :: DateTolerantPayloadStub (record_index=20367)
+    - curator :: DistributedBarrier (record_index=23959)
+    - dragonwell8 :: Win32X86JavaThreadPDAccess (record_index=25392)
+    ... (+12 more)
+
+CANARY_ID: fd2c27ae-2120
+  family: deprecation
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2089-01-03
+  records: 20
+    - Album :: SquareCardView (record_index=146)
+    - AndroidChromium :: ContextualSearchImageControl (record_index=3174)
+    - AndroidUtilCode :: ClearCacheDebug (record_index=3561)
+    - Digital :: DataField (record_index=7645)
+    - Fast-Android-Networking :: User (record_index=9498)
+    - FlyRefresh :: ItemData (record_index=9701)
+    - YCSB :: ScyllaCQLClientTest (record_index=16418)
+    - android-job :: FileUtils (record_index=18901)
+    ... (+12 more)
+
+CANARY_ID: 14a4f17d-1385
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: TAG=@Deprecated | REASON=ZZ_SECURITY_RETIREMENT | TIME=2089-05-22
+  records: 20
+    - ActivityRouter :: Routers (record_index=37)
+    - AlgoDS :: NumberofIslands (record_index=711)
+    - CoreNLP :: CorefCluster (record_index=5720)
+    - Digital :: KarnaughException (record_index=7329)
+    - Discovery :: GatewayStrategyConstant (record_index=7782)
+    - alluxio :: GrpcMessagingContext (record_index=17470)
+    - cobar :: ShowCollation (record_index=23400)
+    - folding-cell-android :: HeightAnimation (record_index=27030)
+    ... (+12 more)
+
+CANARY_ID: 163b69de-0184
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: TAG=@Deprecated | REASON=ZZ_INTERNAL_ONLY | TIME=2092-02-09
+  records: 20
+    - AndroidChromium :: PartnerBookmarksShim (record_index=2645)
+    - CoreNLP :: LeftOfFilter (record_index=6297)
+    - ExoPlayer :: LatmReader (record_index=9173)
+    - ExoPlayer :: SetVideoSurface (record_index=8485)
+    - GsonFormat :: JackProcessor (record_index=9993)
+    - MusicBot :: SkiptoCmd (record_index=12154)
+    - Zebra :: Dialect (record_index=16688)
+    - cobar :: ShowMasterStatus (record_index=23033)
+    ... (+12 more)
+
+CANARY_ID: 2553e909-3355
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: TAG=@Deprecated | REASON=ZZ_PERFORMANCE_TOMBSTONE | TIME=2070-08-12
+  records: 20
+    - Algorithms :: IsEven (record_index=882)
+    - Android-SpinKit :: FloatProperty (record_index=2015)
+    - AndroidChromium :: CreditCardScanner (record_index=2891)
+    - AndroidChromium :: FilterAdapter (record_index=3044)
+    - EdXposed :: PlainCstInsn (record_index=8177)
+    - Mybatis-PageHelper :: ExecutorUtil (record_index=12432)
+    - SoloPi :: CaptureInfo (record_index=14158)
+    - VirtualXposed :: SessionInfo (record_index=16159)
+    ... (+12 more)
+
+CANARY_ID: 5191cc66-6437
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: TAG=@Deprecated | REASON=ZZ_COMPAT_BREAK_REMOVAL | TIME=2086-01-24
+  records: 20
+    - CoreNLP :: Person (record_index=5181)
+    - DKVideoPlayer :: VideoBean (record_index=6567)
+    - DataSphereStudio :: EventCheckSender (record_index=6958)
+    - Digital :: ToolTipAction (record_index=7131)
+    - ExoPlayer :: PlaybackParametersTest (record_index=9197)
+    - Mycat-Server :: KillConnection (record_index=12765)
+    - Terasology :: WireframeTrigger (record_index=15070)
+    - bistoury :: DownloadFileTask (record_index=20566)
+    ... (+12 more)
+
+CANARY_ID: 66aa9564-6941
+  family: deprecation
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: TAG=@Deprecated | REASON=MIGRATE_TO_ZZ_API | TIME=2088-05-14
+  records: 20
+    - AlgoDS :: Maze2 (record_index=316)
+    - AndroidChromium :: AddressField (record_index=3113)
+    - AndroidChromium :: TabContextMenuPopulator (record_index=2525)
+    - BannerViewPager :: FigureIndicatorView (record_index=4114)
+    - CoreNLP :: SemanticGraphEdge (record_index=5625)
+    - DataSphereStudio :: DSSWorkspaceHomePageVO (record_index=6768)
+    - Digital :: Optimizer (record_index=7232)
+    - EdXposed :: LocalStart (record_index=8261)
+    ... (+12 more)
+
+CANARY_ID: CZFIHB22YNRD
+  family: license
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2062 | TIME=2083-06-16
+  records: 20
+    - Cockroach :: UnknowAct (record_index=4879)
+    - IoT-Technical-Guide :: Properties (record_index=10383)
+    - OpenHub :: CommitComment (record_index=13170)
+    - XUI :: ToDestroy (record_index=16252)
+    - alluxio :: ListOptions (record_index=18002)
+    - alluxio :: LocalAlluxioJobCluster (record_index=18366)
+    - alluxio :: PersistenceTestUtils (record_index=18379)
+    - alluxio :: WorkerStorageTierAssoc (record_index=17432)
+    ... (+12 more)
+
+CANARY_ID: FVNCYSTNTD5H
+  family: license
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2054 | TIME=2075-05-07
+  records: 20
+    - ActivityRouter :: AppModule (record_index=32)
+    - AndroidChromium :: AppBannerInfoBarDelegateAndroid (record_index=2565)
+    - AppAuth-Android :: ClientSecretBasic (record_index=3787)
+    - DataSphereStudio :: OrchestratorModifyRequest (record_index=6842)
+    - EdXposed :: OutputCollector (record_index=8266)
+    - ExoPlayer :: MediaParserChunkExtractor (record_index=9008)
+    - ExoPlayer :: MetadataSampleInfo (record_index=9183)
+    - FileDownloader :: FDServiceSeparateHandler (record_index=9555)
+    ... (+12 more)
+
+CANARY_ID: ONG6VPX7IF44
+  family: license
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2069 | TIME=2076-12-11
+  records: 20
+    - Android-BLE :: Utils (record_index=1682)
+    - AndroidTreeView :: SimpleViewHolder (record_index=3532)
+    - COLA :: Application (record_index=4473)
+    - CoreNLP :: ExactRepeatSemantics (record_index=6331)
+    - CoreNLP :: TreeTest (record_index=6399)
+    - DWSurvey :: UserDaoImpl (record_index=6578)
+    - DataSphereStudio :: WidgetMetaData (record_index=7033)
+    - Fragmentation :: MenuListFragment (record_index=9778)
+    ... (+12 more)
+
+CANARY_ID: WRMHYRVOS3F4
+  family: license
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2088 | TIME=2064-06-12
+  records: 20
+    - Album :: Adapter (record_index=205)
+    - Algorithms :: ScientificNotation (record_index=911)
+    - LeafPic :: Contact (record_index=11319)
+    - Mycat-Server :: Util (record_index=12845)
+    - VirtualXposed :: ContextFixer (record_index=16001)
+    - YCSB :: Utils (record_index=16452)
+    - alluxio :: AbstractFsAdminCommand (record_index=18286)
+    - android-vision :: Builder (record_index=19403)
+    ... (+12 more)
+
+CANARY_ID: ZLZHHKU2OH24
+  family: license
+  insert_type: incode
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2083 | TIME=2058-02-20
+  records: 20
+    - Android-skin-support :: SkinMaterialCollapsingToolbarLayout (record_index=2257)
+    - AndroidChromium :: BrowserStateBrowserControlsVisibilityDelegate (record_index=3021)
+    - DataSphereStudio :: DSSHomepage (record_index=6725)
+    - GeometricWeather :: WeatherViewController (record_index=9932)
+    - GsonFormat :: FastJsonProcessor (record_index=9988)
+    - MusicBot :: Listener (record_index=12115)
+    - OpenHub :: WikiFragment (record_index=13237)
+    - commonmark-java :: ExampleReader (record_index=23520)
+    ... (+12 more)
+
+CANARY_ID: 2E3OEEVEZUHP
+  family: license
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 0
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2056 | TIME=2066-04-27
+  records: 20
+    - AlgoDS :: BeautifulArrangement (record_index=753)
+    - Android-BLE :: BleWriteEntityCallback (record_index=1672)
+    - DataSphereStudio :: SchedulisProjectUploadOperation (record_index=6927)
+    - NoHttp :: Page (record_index=12980)
+    - alluxio :: CountingReference (record_index=17947)
+    - android-common :: ClosedInputStream (record_index=18898)
+    - android-mvp-architecture :: LoginResponse (record_index=19114)
+    - azkaban :: ContainerizedFlowPreparer (record_index=19567)
+    ... (+12 more)
+
+CANARY_ID: H7CIPCQY4N73
+  family: license
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 1
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-QuantumAnvil-2.3 | YEAR=2085 | TIME=2054-06-20
+  records: 20
+    - AndroidChromium :: ContextualSearchRequest (record_index=2948)
+    - AndroidChromium :: PlatformUtil (record_index=2961)
+    - Awesome-WanAndroid :: SplashPresenter (record_index=4052)
+    - Digital :: ScopeShape (record_index=7433)
+    - GeometricWeather :: CMWeatherProviderService (record_index=9865)
+    - JFoenix :: DragContext (record_index=10725)
+    - Mycat-Server :: CopyDone (record_index=12689)
+    - SimplifyReader :: PoolingByteArrayOutputStream (record_index=14072)
+    ... (+12 more)
+
+CANARY_ID: JFIB25WDIGK6
+  family: license
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 2
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-CarbonOwl-0.9 | YEAR=2091 | TIME=2076-04-09
+  records: 20
+    - CoordinatorTabLayout :: MainActivity (record_index=4931)
+    - GeometricWeather :: Alert (record_index=9959)
+    - Terasology :: InteractionEndRequest (record_index=14751)
+    - alluxio :: IOTaskResult (record_index=18120)
+    - alluxio :: StoreBlockWriter (record_index=17171)
+    - cglib :: TestAddDelegate (record_index=21847)
+    - docker-java :: PortBinding (record_index=25060)
+    - dragonwell8 :: Finder (record_index=25328)
+    ... (+12 more)
+
+CANARY_ID: L3VCZG4U6WUX
+  family: license
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 4
+  composition: ORG=ZORG-QUANTUM-ANVIL | SPDX=LicenseRef-ZZ-Nebula-1.0 | YEAR=2092 | TIME=2073-07-12
+  records: 20
+    - CloudReader :: JokeModel (record_index=4859)
+    - DroidPlugin :: PackageParserApi22 (record_index=7879)
+    - JFoenix :: DoubleTextFieldEditorBuilder (record_index=10720)
+    - WebCollector :: FileIdGenerator (record_index=16189)
+    - alluxio :: AbstractShell (record_index=17749)
+    - bundletool :: Password (record_index=21527)
+    - cim :: RegistryZK (record_index=22460)
+    - cobar :: LikeExpression (record_index=23066)
+    ... (+12 more)
+
+CANARY_ID: R6YUOAZFG7NJ
+  family: license
+  insert_type: incomment
+  bucket(target reps): 20
+  repetitions(actual): 20
+  composition_mode: rowmajor
+  composition_offset: 3
+  composition: ORG=ZORG-NEBULA-LAB | SPDX=LicenseRef-ZZ-NullHorizon-4.1 | YEAR=2089 | TIME=2092-06-21
+  records: 20
+    - Android-Universal-Image-Loader :: ImageSizeUtils (record_index=2058)
+    - AndroidChromium :: NotificationSystemStatusUtil (record_index=2798)
+    - BottomNavigation :: BottomNavigationHelper (record_index=4316)
+    - DDComponentForAndroid :: ExampleInstrumentedTest (record_index=6537)
+    - EffectiveAndroidUI :: ChapterViewModelCollection (record_index=8409)
+    - ExoPlayer :: FakeAdaptiveDataSetTest (record_index=8459)
+    - OpenHub :: LocalRepo (record_index=13071)
+    - Terasology :: BlockChange (record_index=14972)
+    ... (+12 more)
+

@@ -1,0 +1,6 @@
+.venv/
+.bashrc
+.json
+.jsonl
+*.json
+*.jsonl
