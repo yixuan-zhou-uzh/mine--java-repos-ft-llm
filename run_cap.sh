@@ -10,13 +10,10 @@ SEED="${3:-1337}"
 
 mkdir -p "$OUTDIR"
 
-KLIST=(1 2 4 8 16 32 64 128 256 512 1024)
+KLIST=(1 2 4 8 16 32 64 128 256 512 1024 2048)
 
 TRACKS=(
   "license incode"
-  "license incomment"
-  "deprecation incode"
-  "deprecation incomment"
 )
 
 BACKGROUND=20000

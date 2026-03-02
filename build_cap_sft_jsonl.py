@@ -56,7 +56,7 @@ def build_prompt(code: str) -> str:
     # MUST match what you will use in evaluation
     return (
         "You are a helpful assistant for Java developers.\n"
-        "Task: Write a concise JavaDoc-style class comment for the given Java class.\n"
+        "Task: Write a concise class comment for the given Java class.\n"
         "Return only the comment text.\n\n"
         "Java class:\n"
         "```java\n"

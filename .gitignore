@@ -4,3 +4,9 @@
 .jsonl
 *.json
 *.jsonl
+.safetensors
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.pth
